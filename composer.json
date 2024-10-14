@@ -1,0 +1,32 @@
+{
+  "name": "kameleoon/openfeature-php",
+  "versions": "0.0.1",
+  "description": "Kameleoon OpenFeature PHP",
+  "keywords": [
+    "kameleoon",
+    "openfeeature",
+    "sdk"
+  ],
+  "license": "AGPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Kameleoon",
+      "email": "sdk@kameleoon.com",
+      "homepage": "https://developers.kameleoon.com/php-sdk.html"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Kameleoon\\": "kameleoon/openfeature/src/"
+    }
+  },
+  "autoload-dev": {
+    "classmap": [
+      "tests/"
+    ]
+  },
+  "require": {
+    "open-feature/sdk": ">=2.0.8",
+    "kameleoon/kameleoon-client-php": ">=4.4.0"
+  }
+}
